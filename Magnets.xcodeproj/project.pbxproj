@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE5525FF1DD8C55E00F3041F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5525FE1DD8C55E00F3041F /* AppDelegate.swift */; };
+		BE5526011DD8C55E00F3041F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5526001DD8C55E00F3041F /* ViewController.swift */; };
+		BE5526041DD8C55E00F3041F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5526021DD8C55E00F3041F /* Main.storyboard */; };
+		BE5526061DD8C55E00F3041F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5526051DD8C55E00F3041F /* Assets.xcassets */; };
+		BE5526091DD8C55E00F3041F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5526071DD8C55E00F3041F /* LaunchScreen.storyboard */; };
+		BE5526141DD8C55E00F3041F /* MagnetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5526131DD8C55E00F3041F /* MagnetsTests.swift */; };
+		BE55261F1DD8C55E00F3041F /* MagnetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55261E1DD8C55E00F3041F /* MagnetsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE5526101DD8C55E00F3041F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5525F31DD8C55E00F3041F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5525FA1DD8C55E00F3041F;
+			remoteInfo = Magnets;
+		};
+		BE55261B1DD8C55E00F3041F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5525F31DD8C55E00F3041F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5525FA1DD8C55E00F3041F;
+			remoteInfo = Magnets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE5525FB1DD8C55E00F3041F /* Magnets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5525FE1DD8C55E00F3041F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE5526001DD8C55E00F3041F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE5526031DD8C55E00F3041F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE5526051DD8C55E00F3041F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE5526081DD8C55E00F3041F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE55260A1DD8C55E00F3041F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE55260F1DD8C55E00F3041F /* MagnetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5526131DD8C55E00F3041F /* MagnetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetsTests.swift; sourceTree = "<group>"; };
+		BE5526151DD8C55E00F3041F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE55261A1DD8C55E00F3041F /* MagnetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE55261E1DD8C55E00F3041F /* MagnetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetsUITests.swift; sourceTree = "<group>"; };
+		BE5526201DD8C55E00F3041F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5525F81DD8C55E00F3041F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE55260C1DD8C55E00F3041F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5526171DD8C55E00F3041F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE5525F21DD8C55E00F3041F = {
+			isa = PBXGroup;
+			children = (
+				BE5525FD1DD8C55E00F3041F /* Magnets */,
+				BE5526121DD8C55E00F3041F /* MagnetsTests */,
+				BE55261D1DD8C55E00F3041F /* MagnetsUITests */,
+				BE5525FC1DD8C55E00F3041F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5525FC1DD8C55E00F3041F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5525FB1DD8C55E00F3041F /* Magnets.app */,
+				BE55260F1DD8C55E00F3041F /* MagnetsTests.xctest */,
+				BE55261A1DD8C55E00F3041F /* MagnetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5525FD1DD8C55E00F3041F /* Magnets */ = {
+			isa = PBXGroup;
+			children = (
+				BE5525FE1DD8C55E00F3041F /* AppDelegate.swift */,
+				BE5526001DD8C55E00F3041F /* ViewController.swift */,
+				BE5526021DD8C55E00F3041F /* Main.storyboard */,
+				BE5526051DD8C55E00F3041F /* Assets.xcassets */,
+				BE5526071DD8C55E00F3041F /* LaunchScreen.storyboard */,
+				BE55260A1DD8C55E00F3041F /* Info.plist */,
+			);
+			path = Magnets;
+			sourceTree = "<group>";
+		};
+		BE5526121DD8C55E00F3041F /* MagnetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5526131DD8C55E00F3041F /* MagnetsTests.swift */,
+				BE5526151DD8C55E00F3041F /* Info.plist */,
+			);
+			path = MagnetsTests;
+			sourceTree = "<group>";
+		};
+		BE55261D1DD8C55E00F3041F /* MagnetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE55261E1DD8C55E00F3041F /* MagnetsUITests.swift */,
+				BE5526201DD8C55E00F3041F /* Info.plist */,
+			);
+			path = MagnetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5525FA1DD8C55E00F3041F /* Magnets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5526231DD8C55E00F3041F /* Build configuration list for PBXNativeTarget "Magnets" */;
+			buildPhases = (
+				BE5525F71DD8C55E00F3041F /* Sources */,
+				BE5525F81DD8C55E00F3041F /* Frameworks */,
+				BE5525F91DD8C55E00F3041F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnets;
+			productName = Magnets;
+			productReference = BE5525FB1DD8C55E00F3041F /* Magnets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE55260E1DD8C55E00F3041F /* MagnetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5526261DD8C55E00F3041F /* Build configuration list for PBXNativeTarget "MagnetsTests" */;
+			buildPhases = (
+				BE55260B1DD8C55E00F3041F /* Sources */,
+				BE55260C1DD8C55E00F3041F /* Frameworks */,
+				BE55260D1DD8C55E00F3041F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5526111DD8C55E00F3041F /* PBXTargetDependency */,
+			);
+			name = MagnetsTests;
+			productName = MagnetsTests;
+			productReference = BE55260F1DD8C55E00F3041F /* MagnetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE5526191DD8C55E00F3041F /* MagnetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5526291DD8C55E00F3041F /* Build configuration list for PBXNativeTarget "MagnetsUITests" */;
+			buildPhases = (
+				BE5526161DD8C55E00F3041F /* Sources */,
+				BE5526171DD8C55E00F3041F /* Frameworks */,
+				BE5526181DD8C55E00F3041F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE55261C1DD8C55E00F3041F /* PBXTargetDependency */,
+			);
+			name = MagnetsUITests;
+			productName = MagnetsUITests;
+			productReference = BE55261A1DD8C55E00F3041F /* MagnetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5525F31DD8C55E00F3041F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Matt Beaney";
+				TargetAttributes = {
+					BE5525FA1DD8C55E00F3041F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BE55260E1DD8C55E00F3041F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE5525FA1DD8C55E00F3041F;
+					};
+					BE5526191DD8C55E00F3041F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE5525FA1DD8C55E00F3041F;
+					};
+				};
+			};
+			buildConfigurationList = BE5525F61DD8C55E00F3041F /* Build configuration list for PBXProject "Magnets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE5525F21DD8C55E00F3041F;
+			productRefGroup = BE5525FC1DD8C55E00F3041F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5525FA1DD8C55E00F3041F /* Magnets */,
+				BE55260E1DD8C55E00F3041F /* MagnetsTests */,
+				BE5526191DD8C55E00F3041F /* MagnetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5525F91DD8C55E00F3041F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5526091DD8C55E00F3041F /* LaunchScreen.storyboard in Resources */,
+				BE5526061DD8C55E00F3041F /* Assets.xcassets in Resources */,
+				BE5526041DD8C55E00F3041F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE55260D1DD8C55E00F3041F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5526181DD8C55E00F3041F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5525F71DD8C55E00F3041F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5526011DD8C55E00F3041F /* ViewController.swift in Sources */,
+				BE5525FF1DD8C55E00F3041F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE55260B1DD8C55E00F3041F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5526141DD8C55E00F3041F /* MagnetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5526161DD8C55E00F3041F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE55261F1DD8C55E00F3041F /* MagnetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5526111DD8C55E00F3041F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5525FA1DD8C55E00F3041F /* Magnets */;
+			targetProxy = BE5526101DD8C55E00F3041F /* PBXContainerItemProxy */;
+		};
+		BE55261C1DD8C55E00F3041F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5525FA1DD8C55E00F3041F /* Magnets */;
+			targetProxy = BE55261B1DD8C55E00F3041F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE5526021DD8C55E00F3041F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5526031DD8C55E00F3041F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE5526071DD8C55E00F3041F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5526081DD8C55E00F3041F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE5526211DD8C55E00F3041F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE5526221DD8C55E00F3041F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE5526241DD8C55E00F3041F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Magnets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagesuite.Magnets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE5526251DD8C55E00F3041F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Magnets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagesuite.Magnets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE5526271DD8C55E00F3041F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagnetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagesuite.MagnetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnets.app/Magnets";
+			};
+			name = Debug;
+		};
+		BE5526281DD8C55E00F3041F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagnetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagesuite.MagnetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnets.app/Magnets";
+			};
+			name = Release;
+		};
+		BE55262A1DD8C55E00F3041F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MagnetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagesuite.MagnetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Magnets;
+			};
+			name = Debug;
+		};
+		BE55262B1DD8C55E00F3041F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MagnetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagesuite.MagnetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Magnets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5525F61DD8C55E00F3041F /* Build configuration list for PBXProject "Magnets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5526211DD8C55E00F3041F /* Debug */,
+				BE5526221DD8C55E00F3041F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5526231DD8C55E00F3041F /* Build configuration list for PBXNativeTarget "Magnets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5526241DD8C55E00F3041F /* Debug */,
+				BE5526251DD8C55E00F3041F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE5526261DD8C55E00F3041F /* Build configuration list for PBXNativeTarget "MagnetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5526271DD8C55E00F3041F /* Debug */,
+				BE5526281DD8C55E00F3041F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE5526291DD8C55E00F3041F /* Build configuration list for PBXNativeTarget "MagnetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE55262A1DD8C55E00F3041F /* Debug */,
+				BE55262B1DD8C55E00F3041F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE5525F31DD8C55E00F3041F /* Project object */;
+}
