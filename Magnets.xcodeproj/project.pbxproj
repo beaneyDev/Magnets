@@ -14,6 +14,8 @@
 		BE5526091DD8C55E00F3041F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5526071DD8C55E00F3041F /* LaunchScreen.storyboard */; };
 		BE5526141DD8C55E00F3041F /* MagnetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5526131DD8C55E00F3041F /* MagnetsTests.swift */; };
 		BE55261F1DD8C55E00F3041F /* MagnetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55261E1DD8C55E00F3041F /* MagnetsUITests.swift */; };
+		BE55262D1DD8C66900F3041F /* on.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55262C1DD8C66900F3041F /* on.swift */; };
+		BE5526311DD8CDB700F3041F /* Magnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5526301DD8CDB700F3041F /* Magnet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BE55261A1DD8C55E00F3041F /* MagnetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE55261E1DD8C55E00F3041F /* MagnetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetsUITests.swift; sourceTree = "<group>"; };
 		BE5526201DD8C55E00F3041F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE55262C1DD8C66900F3041F /* on.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = on.swift; sourceTree = "<group>"; };
+		BE5526301DD8CDB700F3041F /* Magnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magnet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				BE5526051DD8C55E00F3041F /* Assets.xcassets */,
 				BE5526071DD8C55E00F3041F /* LaunchScreen.storyboard */,
 				BE55260A1DD8C55E00F3041F /* Info.plist */,
+				BE55262C1DD8C66900F3041F /* on.swift */,
+				BE5526301DD8CDB700F3041F /* Magnet.swift */,
 			);
 			path = Magnets;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE5526011DD8C55E00F3041F /* ViewController.swift in Sources */,
+				BE55262D1DD8C66900F3041F /* on.swift in Sources */,
 				BE5525FF1DD8C55E00F3041F /* AppDelegate.swift in Sources */,
+				BE5526311DD8CDB700F3041F /* Magnet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
